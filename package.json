@@ -1,0 +1,24 @@
+{
+  "name": "supplier-agent",
+  "version": "1.0.0",
+  "description": "Supplier research agent (Groq) with Excel export and email.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "view": "open excel-viewer.html",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "groq-sdk": "^0.8.0",
+    "dotenv": "^17.3.1",
+    "exceljs": "^4.4.0",
+    "nodemailer": "^8.0.3"
+  }
+}

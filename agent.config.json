@@ -1,0 +1,29 @@
+{
+  "groq": {
+    "model": "llama-3.3-70b-versatile",
+    "maxTokensBatch": 8192,
+    "maxTokensOutreach": 500
+  },
+  "research": {
+    "batchSize": 50,
+    "totalBatches": 1,
+    "cooldownSeconds": 15,
+    "rateLimitBackoffSeconds": 30
+  },
+  "email": {
+    "outreachDelayMs": 2000,
+    "topReport": 10,
+    "defaultMaxOutreach": 10
+  },
+  "verification": {
+    "dnsChunk": 50
+  },
+  "defaults": {
+    "productQuery": "industrial servo motors"
+  },
+  "brand": {
+    "reportFromName": "Anmol Aggarwal",
+    "companyName": "Multitec Industries Ltd.",
+    "roleTitle": "Procurement Manager"
+  }
+}
